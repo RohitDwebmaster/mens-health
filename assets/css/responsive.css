@@ -1,0 +1,340 @@
+﻿/*Media query for tablet screen*/
+
+@media only screen and (max-width:1200px)
+
+{
+	
+.navigation{
+width:260px;
+}
+
+.navigation .list:nth-last-child(1){
+	display:none;
+}
+
+.navigation .list:nth-last-child(2){
+	display:none;
+}
+
+.navigation .list:nth-last-child(3){
+	display:none;
+}
+
+.navigation .list:nth-last-child(4){
+	display:none;
+}
+
+.navigation .list:nth-last-child(5){
+	display:none;
+}
+
+.navigation .list:nth-last-child(6){
+	display:none;
+}
+
+
+.left-ad,.right-ad{
+	display:none;
+}
+
+.center-box{
+	width:96%;
+}
+
+.box-right{
+	display:none;
+}	
+
+.box-left {
+    width: 100%;
+    float:none;
+}
+
+.row .recommended-box:last-child {
+	display:none;
+}
+
+.recommended-box{
+	width:32%;
+}
+
+.footer-center{
+	width:100%;
+}
+
+.footer-section{
+	width:50%;
+}
+
+.footer-section2{
+	width:50%;	
+}
+
+.mobile-list{
+	display:inline-block !important;
+} 
+
+.mobile-navigation {
+    display: none;
+}
+	
+}
+
+/*Media query for wide and small screen mobile*/
+
+@media only screen and (max-width:768px)
+
+{
+
+body{
+	overflow-x:hidden;
+}
+	 
+.mobile-navigation {
+    display: none;
+}
+ 
+ .navigation{
+	display: none;
+    position: absolute;
+    background:#f9f9f9;
+    z-index: 9;
+    width: auto;
+    padding: 20px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    left: 0;
+} 
+
+.navigation .list {
+    display:block;
+    line-height: 27px;
+}
+
+.mobile-list {
+    display: none !important;
+}
+
+.navigation .list:nth-last-child(6) {
+    display: block;
+}
+
+
+.navigation .list:nth-last-child(5) {
+    display: block;
+}
+
+.navigation .list:nth-last-child(4) {
+    display: block;
+}
+
+.navigation .list:nth-last-child(3) {
+    display: block;
+}
+
+.navigation .list:nth-last-child(2) {
+    display: block;
+}
+
+.navigation .list:nth-last-child(1) {
+    display: block;
+}
+
+
+.mobile-toggle{
+    display:block;
+   }  
+
+
+.social-media .icon:nth-child(1){
+	display:none;
+}
+
+.social-media .icon:nth-child(2){
+	display:none;
+} 
+
+.social-media .icon:nth-child(3){
+	display:none;
+} 
+
+
+.social-media .footer-icon:nth-child(1){
+	display:inline-block;
+}
+
+.social-media .footer-icon:nth-child(2){
+	display:inline-block;
+} 
+
+.social-media .footer-icon:nth-child(3){
+	display:inline-block;
+} 
+
+
+.logo {
+    float: none;
+    width: 140px;
+    margin: 0 auto;
+} 
+
+.header {
+    height: auto;
+}
+	
+.social-bar {
+    top: 6px;
+}
+
+.article-main {
+    font-size: 30px;
+    line-height: 31px;
+}
+
+.author {
+    float: none;
+    overflow: auto;
+    overflow-y: hidden;
+}
+
+.share-bar {
+    float: none;
+}
+
+.share{
+	padding: 0;
+}
+
+.share .share-list {
+    width: 40px;
+}
+
+.share-up {
+    width: 50px !important;
+}
+
+.article-main {
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.article-desc {
+    font-size: 16px;
+}
+
+.view-comment {
+    width: 100%;
+    float: none;
+    border-bottom: 1px solid #E2E2E2;
+    padding: 5px 0px;
+}
+
+.post-comment {
+    width: 100%;
+    float: none;
+    padding: 5px 0px;
+}
+
+.comments-bar {
+   padding: 0px;
+ }
+
+.sharing {
+    display: none;
+}
+
+.section-heading {
+    font-size: 18px;
+}
+
+.small-head {
+    font-size: 10px;
+}
+
+.article-desc {
+    font-size: 12px;
+}
+
+.mobile-share{
+	display:none;
+}
+
+.section {
+    margin-top: 0;
+}
+
+.box-right {
+    display: block;
+    width: 100%;
+    margin-top: 0;
+}
+
+.mh-magazine {
+display:none;
+}
+
+.fastrack-banner{
+	display:none;
+}
+
+.recommended-box {
+    width: 48%;
+    box-sizing: border-box;
+        height: 290px;
+}
+
+.row .recommended-box:last-child {
+    display: block;
+        box-sizing: border-box;
+}
+
+.footer-center .footer-section:nth-child(1){
+	display:none;
+}
+
+
+.footer-center .footer-section:nth-child(4){
+	display:none;
+}
+
+.footer-center .footer-section2:nth-child(5){
+	display:none;
+}
+
+.footer-section {
+    width: 100%;
+        text-align: center;
+}
+
+.footer-list .f-list {
+    display: inline;
+    cursor: pointer;
+    border-right: 1px solid #000;
+    padding-right: 6px;
+    padding-left: 6px;
+}
+
+.footer-list .f-list:last-child {
+    border-right: 0;
+}
+
+.mobile-section{
+	display:block;
+}
+
+.footer-logo{
+	display:none;
+}
+	
+}
+
+@media only screen and (max-width:480px)
+
+{
+
+.recommended-box {
+    width: 48%;
+    box-sizing: border-box;
+        height: 230px;
+}
+
+}
